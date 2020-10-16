@@ -1,7 +1,7 @@
 // Configure the Google Cloud provider
 provider "google" {
  credentials = file("CREDENTIALS_FILE.json")
- project     = "flash-app-291223"
+ project     = "flash-app-<ID>"
  region      = "us-west1"
 }
 // Terraform plugin for creating random ids
